@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'segoe UI', tahoma, geneva, verana, sans-serif;
+    box-sizing: border-box;
+
+}
+
+body:focus{
+    outline: none;
+}
+.container{
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+}
+#tbbingo{
+    border-collapse: collapse;
+    height: 25rem;
+    width: 25rem;
+    text-align: center;
+    font-size: 22pt;
+    cursor: pointer;
+}
+#tbbingo td{
+    padding: 0.4rem;
+}
+.cell-format{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20%;
+    border: 0.5px solid #ccccec; 
+}
+.cell-format:hover{
+    background: #ccccec;
+}
+.letter-div{
+    margin-top: -50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.letter-bingo{
+    padding: 0 0.3rem;
+    font-size: 40pt;
+    display: none;
+}
+.strickout{
+    text-decoration: line-through;
+    color: #a6a3a3;
+    font-size: 18pt;
+    pointer-events: none;
+}
+.show-bingo{
+    display: inline;
+}
+.win-btn{
+    padding: 10px 50px;
+    font-size: 20px;
+    border: 1px soldi black;
+    font-weight: bold;
+    cursor: pointer;
+}
+.win-btn.avtive{
+    opacity: 1;
+    pointer-events: auto;
+}
+.you-win-bingo{
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.5);
+    top: 0;
+    left: 0;
+    color: white;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+.you-win-bingo h2{
+    font-size: 40px;
+    display: none;
+    margin-top: 10px;
+}
+#tbletter{
+    margin-bottom: 10px;
+}
+img{
+    width: 300px;
+}
+.btn{
+    padding: 10px 30px;
+    outline: none;
+    border: none;
+    margin-top: 30px;
+    background: ;
+    cursor: pointer;
+    border-radius: 20px;
+    font-size: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
